@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C967FC71E77E715008C8D80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C967FC61E77E715008C8D80 /* AppDelegate.swift */; };
+		1C967FC91E77E715008C8D80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C967FC81E77E715008C8D80 /* ViewController.swift */; };
+		1C967FCC1E77E715008C8D80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C967FCA1E77E715008C8D80 /* Main.storyboard */; };
+		1C967FCE1E77E715008C8D80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C967FCD1E77E715008C8D80 /* Assets.xcassets */; };
+		1C967FD11E77E715008C8D80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C967FCF1E77E715008C8D80 /* LaunchScreen.storyboard */; };
+		1C967FDA1E77EB06008C8D80 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C967FD91E77EB06008C8D80 /* QuickLook.framework */; };
+		1C967FDF1E77EF37008C8D80 /* cellDocumentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C967FDE1E77EF37008C8D80 /* cellDocumentView.swift */; };
+		1C9680001E77F768008C8D80 /* Document-Doc.docx in Resources */ = {isa = PBXBuildFile; fileRef = 1C967FFA1E77F768008C8D80 /* Document-Doc.docx */; };
+		1C9680011E77F768008C8D80 /* Document-Image.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1C967FFB1E77F768008C8D80 /* Document-Image.jpeg */; };
+		1C9680041E77F768008C8D80 /* Document-Pdf.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1C967FFE1E77F768008C8D80 /* Document-Pdf.pdf */; };
+		1C9680051E77F768008C8D80 /* Document-Text.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1C967FFF1E77F768008C8D80 /* Document-Text.rtf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C967FC31E77E715008C8D80 /* DocumentViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocumentViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C967FC61E77E715008C8D80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1C967FC81E77E715008C8D80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1C967FCB1E77E715008C8D80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C967FCD1E77E715008C8D80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C967FD01E77E715008C8D80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1C967FD21E77E715008C8D80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C967FD91E77EB06008C8D80 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		1C967FDE1E77EF37008C8D80 /* cellDocumentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cellDocumentView.swift; sourceTree = "<group>"; };
+		1C967FFA1E77F768008C8D80 /* Document-Doc.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Document-Doc.docx"; sourceTree = "<group>"; };
+		1C967FFB1E77F768008C8D80 /* Document-Image.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Document-Image.jpeg"; sourceTree = "<group>"; };
+		1C967FFE1E77F768008C8D80 /* Document-Pdf.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Document-Pdf.pdf"; sourceTree = "<group>"; };
+		1C967FFF1E77F768008C8D80 /* Document-Text.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "Document-Text.rtf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C967FC01E77E715008C8D80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C967FDA1E77EB06008C8D80 /* QuickLook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C967FBA1E77E715008C8D80 = {
+			isa = PBXGroup;
+			children = (
+				1C967FC51E77E715008C8D80 /* DocumentViewer */,
+				1C967FC41E77E715008C8D80 /* Products */,
+				1C967FD81E77EB06008C8D80 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1C967FC41E77E715008C8D80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C967FC31E77E715008C8D80 /* DocumentViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C967FC51E77E715008C8D80 /* DocumentViewer */ = {
+			isa = PBXGroup;
+			children = (
+				1C967FF91E77F768008C8D80 /* AllDocument */,
+				1C967FC61E77E715008C8D80 /* AppDelegate.swift */,
+				1C967FC81E77E715008C8D80 /* ViewController.swift */,
+				1C967FDE1E77EF37008C8D80 /* cellDocumentView.swift */,
+				1C967FCA1E77E715008C8D80 /* Main.storyboard */,
+				1C967FCD1E77E715008C8D80 /* Assets.xcassets */,
+				1C967FCF1E77E715008C8D80 /* LaunchScreen.storyboard */,
+				1C967FD21E77E715008C8D80 /* Info.plist */,
+			);
+			path = DocumentViewer;
+			sourceTree = "<group>";
+		};
+		1C967FD81E77EB06008C8D80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C967FD91E77EB06008C8D80 /* QuickLook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C967FF91E77F768008C8D80 /* AllDocument */ = {
+			isa = PBXGroup;
+			children = (
+				1C967FFA1E77F768008C8D80 /* Document-Doc.docx */,
+				1C967FFB1E77F768008C8D80 /* Document-Image.jpeg */,
+				1C967FFE1E77F768008C8D80 /* Document-Pdf.pdf */,
+				1C967FFF1E77F768008C8D80 /* Document-Text.rtf */,
+			);
+			path = AllDocument;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C967FC21E77E715008C8D80 /* DocumentViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C967FD51E77E715008C8D80 /* Build configuration list for PBXNativeTarget "DocumentViewer" */;
+			buildPhases = (
+				1C967FBF1E77E715008C8D80 /* Sources */,
+				1C967FC01E77E715008C8D80 /* Frameworks */,
+				1C967FC11E77E715008C8D80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DocumentViewer;
+			productName = DocumentViewer;
+			productReference = 1C967FC31E77E715008C8D80 /* DocumentViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C967FBB1E77E715008C8D80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Piyush;
+				TargetAttributes = {
+					1C967FC21E77E715008C8D80 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1C967FBE1E77E715008C8D80 /* Build configuration list for PBXProject "DocumentViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C967FBA1E77E715008C8D80;
+			productRefGroup = 1C967FC41E77E715008C8D80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C967FC21E77E715008C8D80 /* DocumentViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C967FC11E77E715008C8D80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C967FD11E77E715008C8D80 /* LaunchScreen.storyboard in Resources */,
+				1C967FCE1E77E715008C8D80 /* Assets.xcassets in Resources */,
+				1C9680051E77F768008C8D80 /* Document-Text.rtf in Resources */,
+				1C9680011E77F768008C8D80 /* Document-Image.jpeg in Resources */,
+				1C967FCC1E77E715008C8D80 /* Main.storyboard in Resources */,
+				1C9680041E77F768008C8D80 /* Document-Pdf.pdf in Resources */,
+				1C9680001E77F768008C8D80 /* Document-Doc.docx in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C967FBF1E77E715008C8D80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C967FC91E77E715008C8D80 /* ViewController.swift in Sources */,
+				1C967FDF1E77EF37008C8D80 /* cellDocumentView.swift in Sources */,
+				1C967FC71E77E715008C8D80 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1C967FCA1E77E715008C8D80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C967FCB1E77E715008C8D80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1C967FCF1E77E715008C8D80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C967FD01E77E715008C8D80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C967FD31E77E715008C8D80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1C967FD41E77E715008C8D80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C967FD61E77E715008C8D80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DocumentViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DocumentViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1C967FD71E77E715008C8D80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DocumentViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DocumentViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C967FBE1E77E715008C8D80 /* Build configuration list for PBXProject "DocumentViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C967FD31E77E715008C8D80 /* Debug */,
+				1C967FD41E77E715008C8D80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C967FD51E77E715008C8D80 /* Build configuration list for PBXNativeTarget "DocumentViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C967FD61E77E715008C8D80 /* Debug */,
+				1C967FD71E77E715008C8D80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C967FBB1E77E715008C8D80 /* Project object */;
+}
